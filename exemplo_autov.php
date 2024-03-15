@@ -53,7 +53,7 @@ function test_input($data) {
 }
 ?>
 
-<h2>VAlidação de formulários teste</h2>
+<h2>Validação de formulários teste</h2>
 <p><span class="error">* Campo necessário</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name">
@@ -77,7 +77,7 @@ function test_input($data) {
 </form>
 
 <?php
-echo "<h2>Your Input:</h2>";
+echo "<h2>O que foi introduzido:</h2>";
 echo $name;
 echo "<br>";
 echo $email;
