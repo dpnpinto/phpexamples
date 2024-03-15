@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <h1>Exemplo de validação de formulário em PHP</h1>
 <h1>By https://dpnpinto.github.io </h1>
-!-- Esta ação permite que seja a propia página a receber o metodo, o htmlspecialchars permite a modificação do código e evitar exploits
+<!-- Esta ação permite que seja a propia página a receber o metodo, o htmlspecialchars permite a modificação do código e evitar exploits-->
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   O seu nomes: <input type="text" name="name">
   <br><br>
