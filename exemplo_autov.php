@@ -2,55 +2,82 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
+<style>
+.error {color: #FF0000;}
+</style>
 </head>
 <body>  
 
 <?php
-// define variaveis e colocar todas com uma string a vazia 
+// define variables and set to empty values
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
 
-function clean_input($data) {
-  //Retirar esaços em branco
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "É necessário o nome";
+  } else {
+    $name = test_input($_POST["name"]);
+  }
+  
+  if (empty($_POST["email"])) {
+    $emailErr = "É necessário o E-mail";
+  } else {
+    $email = test_input($_POST["email"]);
+  }
+    
+  if (empty($_POST["website"])) {
+    $website = "";
+  } else {
+    $website = test_input($_POST["website"]);
+  }
+
+  if (empty($_POST["comment"])) {
+    $comment = "";
+  } else {
+    $comment = test_input($_POST["comment"]);
+  }
+
+  if (empty($_POST["gender"])) {
+    $genderErr = "É necessário o genero";
+  } else {
+    $gender = test_input($_POST["gender"]);
+  }
+}
+
+function test_input($data) {
   $data = trim($data);
-  //Retirar back slashes  "\"
   $data = stripslashes($data);
-  //REmover caracteres especiais
   $data = htmlspecialchars($data);
   return $data;
 }
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = clean_input($_POST["name"]);
-  $email = clean_input($_POST["email"]);
-  $website = clean_input($_POST["website"]);
-  $comment = cleean_input($_POST["comment"]);
-  $gender = clean_input($_POST["gender"]);
-}
-
 ?>
 
-<h1>Exemplo de validação de formulário em PHP</h1>
-<h1>By https://dpnpinto.github.io </h1>
-<!-- Esta ação permite que seja a propia página a receber o metodo, o htmlspecialchars permite a modificação do código e evitar exploits-->
+<h2>PHP Form Validation Example</h2>
+<p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  O seu nomes: <input type="text" name="name">
+  Name: <input type="text" name="name">
+  <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
-  O seu E-mail: <input type="text" name="email">
+  E-mail: <input type="text" name="email">
+  <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
-  O seu site: <input type="text" name="website">
+  Website: <input type="text" name="website">
+  <span class="error"><?php echo $websiteErr;?></span>
   <br><br>
-  Commentários: <textarea name="comment" rows="5" cols="40"></textarea>
+  Comment: <textarea name="comment" rows="5" cols="40"></textarea>
   <br><br>
-  Qual o seu genero:
-  <input type="radio" name="gender" value="female">Femenino
-  <input type="radio" name="gender" value="male">Masculino
-  <input type="radio" name="gender" value="other">Outro
+  Gender:
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="other">Other
+  <span class="error">* <?php echo $genderErr;?></span>
   <br><br>
-  <input type="submit" name="submit" value="Submit">  
+  <input type="submit" name="Submeter informação" value="Submit">  
 </form>
 
 <?php
-echo "<h1>O que foi inserido:</h1>";
+echo "<h2>Your Input:</h2>";
 echo $name;
 echo "<br>";
 echo $email;
