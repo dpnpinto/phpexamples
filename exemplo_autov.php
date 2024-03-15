@@ -53,8 +53,8 @@ function test_input($data) {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
-<p><span class="error">* required field</span></p>
+<h2>VAlidação de formulários teste</h2>
+<p><span class="error">* Campo necessário</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name">
   <span class="error">* <?php echo $nameErr;?></span>
@@ -68,9 +68,9 @@ function test_input($data) {
   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
   <br><br>
   Gender:
-  <input type="radio" name="gender" value="female">Female
-  <input type="radio" name="gender" value="male">Male
-  <input type="radio" name="gender" value="other">Other
+  <input type="radio" name="gender" value="Femenino">Female
+  <input type="radio" name="gender" value="Masculino">Male
+  <input type="radio" name="gender" value="Outro">Other
   <span class="error">* <?php echo $genderErr;?></span>
   <br><br>
   <input type="submit" name="Submeter informação" value="Submit">  
