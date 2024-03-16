@@ -68,9 +68,8 @@ function test_input($data) {
   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
   <br><br>
   Gender:
-  <input type="radio" name="gender" value="F">Femenino
+  <input type="radio" name="gender" value="F">Feminino
   <input type="radio" name="gender" value="M">Masculino
-  <input type="radio" name="gender" value="O">Outro
   <span class="error">* <?php echo $genderErr;?></span>
   <br><br>
   <input type="submit" name="Submit" value="Submeter Valores">  
