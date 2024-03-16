@@ -6,4 +6,4 @@ Os exemplos incidem sobre:
 - Formulários
   - Submussão por GET e POST
   - Validação de formulários
-- Acessoa bases de dados MySQL
+- Acesso a bases de dados MySQL
