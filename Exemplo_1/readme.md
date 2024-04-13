@@ -38,8 +38,7 @@
 
 ### :hash: Config
 
-create dpp database import sqlfiles and config conn.php
-**If you clone this project than in your phpmyadmin make _dpp_ name empty database and import that sqlfile/dpp.sql file in empty database**
+**If you clone this project than in your phpmyadmin make _dpp_ name empty database and import that sqlfile/dpp.sql file in empty database, config conn.php passwd in includes**
 
 >***Default admin password is : <br/>
  email :admin@test.com <br>
@@ -48,3 +47,4 @@ create dpp database import sqlfiles and config conn.php
 **Contributors :**
 
 @AnupamAyank (For functionality testing ).
+And me dpnpinto https://dpnpinto.github.io/
