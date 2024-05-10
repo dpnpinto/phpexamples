@@ -6,4 +6,5 @@ Os exemplos incidem sobre:
 - Formulários
   - Submissão por GET e POST
   - Validação de formulários
-- Acesso a bases de dados MySQL
+- Acesso e gestão de bases de dados MySQL
+  - Exemplo de coneção a a MNySQL e criação de uma BD
