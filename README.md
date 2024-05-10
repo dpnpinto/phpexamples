@@ -4,6 +4,6 @@ Os exemplos incidem sobre:
 - Os metodos GET e POST
   - As variaveis PHP superglobais  $_GET e $_POST são utilizadas para recolher a informação do formulários.
 - Formulários
-  - Submussão por GET e POST
+  - Submissão por GET e POST
   - Validação de formulários
 - Acesso a bases de dados MySQL
