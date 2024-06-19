@@ -1,5 +1,5 @@
 # Exemplos de ficheiros em PHP
-Exemplos PHP para TIS de forma a perceber o funcionamento basico de modelo cliente servidor da WEB.
+Exemplos PHP para TIS de forma a perceber o funcionamento básico de modelo cliente servidor em tecnologia WEB.
 Os exemplos incidem sobre:
 - Script BASH de instalação de um stack LAMP em Rocky Linux
 - Script BASH para cópia para servidor Apache do código 
