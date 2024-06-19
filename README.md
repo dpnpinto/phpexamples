@@ -10,5 +10,5 @@ Os exemplos incidem sobre:
   - Validação de formulários
 - Acesso e gestão de bases de dados MySQL
   - Exemplo de coneção a a MySQL e criação de uma BD
-- Exemplo de uma aplicação WEB para uma clinica
+- Exemplo de uma aplicação WEB (em PHP) para uma clinica 
   - Exemplo_1
