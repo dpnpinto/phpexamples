@@ -1,5 +1,5 @@
 # Exemplos de ficheiros em PHP
-Exemplos PHP para TIS de forma a perceber o funcionamento básico de modelo cliente servidor em tecnologia WEB.
+Exemplos de PHP utilizados no curso de Técnico de Informática e Sistemas(TIS) de forma a fazer perceber o funcionamento básico de modelo cliente servidor em tecnologia WEB utilizando PHP.
 Os exemplos incidem sobre:
 - Script BASH de instalação de um stack LAMP em Rocky Linux
 - Script BASH para cópia para servidor Apache do código 
