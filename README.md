@@ -11,6 +11,10 @@ Os exemplos incidem sobre:
     - exemplo_get.html 
 - Exemplos de formulários
   - Submissão por GET e POST
+    - exemplo_post.html
+    - 
+    - exemplo_get.html
+    - 
   - Validação de formulários
 - Acesso e gestão de bases de dados MySQL
   - Exemplo de coneção a um SGBD (MySQL) e criação de uma BD
