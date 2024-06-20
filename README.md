@@ -19,6 +19,6 @@ Os exemplos incidem sobre:
     - exemplo_autov.php
 - Acesso e gestão de bases de dados MySQL
   - Exemplo de coneção a um SGBD (MySQL) e criação de uma BD
-    -  
+    - exemplo_criarbd.php
 - Exemplo de uma aplicação WEB (em PHP) para uma clinica 
   - Exemplo_1
