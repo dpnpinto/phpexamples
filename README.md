@@ -22,3 +22,4 @@ Os exemplos incidem sobre:
     - exemplo_criarbd.php
 - Exemplo de uma aplicação WEB (em PHP) para uma clinica 
   - Exemplo_1
+    - Exemplo de um Portal Médico-Paciente que auxilia pacientes a evitar longas filas de espera para marcar consultas em clínicas e hospitais.  Este exemplo de portal pode ajudar a reduzir o tempo de espera em unidades de saúde.
