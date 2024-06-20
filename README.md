@@ -12,9 +12,9 @@ Os exemplos incidem sobre:
 - Exemplos de formulários
   - Submissão por GET e POST
     - exemplo_post.html
-    - 
+    - bemvindo.php
     - exemplo_get.html
-    - 
+    - bemvindo.php
   - Validação de formulários
 - Acesso e gestão de bases de dados MySQL
   - Exemplo de coneção a um SGBD (MySQL) e criação de uma BD
