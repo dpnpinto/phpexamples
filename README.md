@@ -7,6 +7,8 @@ Os exemplos incidem sobre:
   - copy_to_server.sh  
 - Exemplos dos metodos GET e POST
   - As variaveis PHP superglobais  $_GET e $_POST são utilizadas para recolher a informação do formulários.
+    - exemplo_post.html
+    - exemplo_get.html 
 - Exemplos de formulários
   - Submissão por GET e POST
   - Validação de formulários
