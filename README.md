@@ -16,8 +16,9 @@ Os exemplos incidem sobre:
     - exemplo_get.html
     - bemvindo_get.php
   - Validação de formulários
-    - 
+    - exemplo_autov.php
 - Acesso e gestão de bases de dados MySQL
   - Exemplo de coneção a um SGBD (MySQL) e criação de uma BD
+    -  
 - Exemplo de uma aplicação WEB (em PHP) para uma clinica 
   - Exemplo_1
