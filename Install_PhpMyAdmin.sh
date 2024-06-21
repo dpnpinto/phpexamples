@@ -1,7 +1,7 @@
 #!/bin/bs
 # Instalação do PHPMYADMIN para facil gestão de bases de dados para o projeto PHP
 # by https://dpnpinto.github.io
-# Nota já tem de ter o LAMP instalado a solução funciona em php 
+# Nota: já tem de ter o LAMP instalado a solução funciona em php 
 sudo dnf -y install epel-release
 sudo dnf -y install phpmyadmin
 sudo firewall-cmd --add-service=http --permanent
