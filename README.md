@@ -4,7 +4,7 @@ Os exemplos incidem sobre:
 - Script BASH de instalação de um stack LAMP no Rocky Linux
   - Install_LAMP.sh
 - Script BASH para instalação do PhpMyAdmin no Rocky Linux
-  - install_phpmyadmin.sh 
+  - Install_PhpMyAdmin.sh 
 - Script BASH para cópia para servidor Apache instalado no Rocky Linux do código
   - copy_to_server.sh  
 - Exemplos dos metodos GET e POST
