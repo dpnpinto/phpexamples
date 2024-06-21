@@ -2,7 +2,9 @@
 Exemplos de PHP utilizados no curso de Técnico de Informática e Sistemas(TIS) de forma a fazer perceber o funcionamento básico do modelo cliente servidor utilizando tecnologia WEB e a linguagem PHP.
 Os exemplos incidem sobre:
 - Script BASH de instalação de um stack LAMP em Rocky Linux
-  - Install_LAMP.sh 
+  - Install_LAMP.sh
+- Script BASH para instalação do PhpMyAdmin
+  - install_phpmyadmin.sh 
 - Script BASH para cópia para servidor Apache instalado no Rocky Linux do código
   - copy_to_server.sh  
 - Exemplos dos metodos GET e POST
