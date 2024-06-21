@@ -1,5 +1,5 @@
 #!/bin/bs
-# Instalação do PHPADMIN para facil gestão de bases de dados para o projeto PHP
+# Instalação do PHPMYADMIN para facil gestão de bases de dados para o projeto PHP
 sudo dnf -y install epel-release
 sudo dnf -y install phpmyadmin
 sudo firewall-cmd --add-service=http --permanent
