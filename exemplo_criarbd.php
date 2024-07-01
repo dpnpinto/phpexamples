@@ -10,9 +10,9 @@ if (!$conn) {
   die("Coneção ao sgbd falhou: " . mysqli_connect_error());
 }
 
-// A criar uma base de dados
+// String com comando SQL para criar a base de dados "myDB"
 $sql = "CREATE DATABASE myDB";
-// são passados na função a coneção e o SQL
+// Executado o SQL para criação da BD
 if (mysqli_query($conn, $sql)) {
   echo "Foi criada a base de dados com sucesso";
 } else {
