@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "pint20";
+$password = "mypassword";
 
 // Criar a ligação à base de dados e colocar na variavel conn
 $conn = mysqli_connect($servername, $username, $password);
